@@ -1,4 +1,4 @@
-import { /*useRef,*/ useEffect, useState } from "react";
+import { /*useRef,*/  useEffect, useState } from "react";
 import useEth from  "../../contexts/EthContext/useEth";
 
 function Contract({ value, text }) {
