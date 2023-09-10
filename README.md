@@ -7,7 +7,7 @@
 	- [Truffle Configuration:](#truffle-configuration)
 	- [Deployment Instructions:](#deployment-instructions)
 	- [Front-End Application:](#front-end-application)
-		- [Deployment Details : Building log](#deployment-details--building-log)
+		- [Building log](#building-log)
 	- [React Truffle Box](#react-truffle-box)
 		- [Installation](#installation)
 	- [FAQ](#faq)
@@ -126,7 +126,7 @@ Decentralized App is deployed on **Vercel** at [**React Truffle Box**](https://a
 
 It's a basic React front-end application to interact with your smart contracts. The application is hosted on Vercel for easy access. To deploy your front end, make sure to configure your Vercel settings.
 
-### Deployment Details : Building log
+### Building log
 
 ```shell
 [15:38:41.597] Running build in Washington, D.C., USA (East) – iad1
