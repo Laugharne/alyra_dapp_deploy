@@ -1,5 +1,18 @@
 # Truffle Project Deployment to Vercel and Goerli Network
 
+<!-- TOC -->
+
+- [Truffle Project Deployment to Vercel and Goerli Network](#truffle-project-deployment-to-vercel-and-goerli-network)
+	- [Overview:](#overview)
+	- [Truffle Configuration:](#truffle-configuration)
+	- [Deployment Instructions:](#deployment-instructions)
+	- [Front-End Application:](#front-end-application)
+	- [React Truffle Box](#react-truffle-box)
+		- [Installation](#installation)
+	- [FAQ](#faq)
+
+<!-- /TOC -->
+
 ## Overview:
 
 Welcome to the **Truffle** Project Deployment to **Vercel** and **Goerli** Network repository. In this project, we explore the seamless deployment of **Ethereum smart contracts** developed using Truffle to the Goerli test network and host a front-end application on Vercel for easy interaction.
@@ -57,7 +70,7 @@ Also, don't forget to initialize correctly your `.gitignore` file to prevent une
 ```bash
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# Dependencies
+# pendencies
 node_modules
 .pnp
 .pnp.js
