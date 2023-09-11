@@ -8,6 +8,7 @@
 	- [Deployment Instructions:](#deployment-instructions)
 	- [Front-End Application:](#front-end-application)
 		- [Building log](#building-log)
+		- [See it in action](#see-it-in-action)
 	- [React Truffle Box](#react-truffle-box)
 		- [Installation](#installation)
 	- [FAQ](#faq)
@@ -138,8 +139,6 @@ client/node_modules
 
 Decentralized App is deployed on **Vercel** at [**React Truffle Box**](https://alyra-dapp-deploy.vercel.app/)
 
-![](vercel-goerli-dapp.png)
-
 It's a basic React front-end application to interact with your smart contracts. The application is hosted on Vercel for easy access. To deploy your front end, make sure to configure your Vercel settings.
 
 ### Building log
@@ -172,8 +171,9 @@ It's a basic React front-end application to interact with your smart contracts. 
 [15:38:59.505] Uploading build cache [23.22 MB]...
 [15:39:00.895] Build cache uploaded: 1.390s
 ```
+### See it in action
 
-Enjoy deploying your Truffle project to Goerli and hosting it on Vercel!
+![](vercel-goerli-dapp.png)
 
 
 ## React Truffle Box
