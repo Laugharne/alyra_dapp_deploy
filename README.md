@@ -118,11 +118,27 @@ client/node_modules
    truffle migrate --network goerli
    ```
 
-3. Once your contracts are deployed, you'll receive contract addresses. In our case also inside the file `SimpleStorage.json`(with **ABI** definition too) in `client/src/contracts/` folder.
+3. Once your contracts are deployed, you'll receive contract address. In our case also inside the file `SimpleStorage.json`(with **ABI** definition too) in `client/src/contracts/` folder.
+  ```json
+    "networks": {
+      "5": {
+        "events": {},
+        "links": {},
+        "address": "0x6C64fd92822Cc4505351052BA1Eb1FC2adD26dBb",
+        "transactionHash": "0x64352f622c81884899b5d54600bc6b055362072b9c6b6810ffcbd596a72f73b2"
+      },
+
+      ...
+  ```
+
+4. You can check the deployment on **Etherscan** for **Goerli Tesnet**, here : [Contract Address](https://goerli.etherscan.io/address/0x6C64fd92822Cc4505351052BA1Eb1FC2adD26dBb) and see the 
+[Decompiled Bytecode](https://goerli.etherscan.io/bytecode-decompiler?a=0x6C64fd92822Cc4505351052BA1Eb1FC2adD26dBb)
 
 ## Front-End Application:
 
 Decentralized App is deployed on **Vercel** at [**React Truffle Box**](https://alyra-dapp-deploy.vercel.app/)
+
+![](vercel-goerli-dapp.png)
 
 It's a basic React front-end application to interact with your smart contracts. The application is hosted on Vercel for easy access. To deploy your front end, make sure to configure your Vercel settings.
 
